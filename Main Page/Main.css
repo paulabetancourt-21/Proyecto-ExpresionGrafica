@@ -61,7 +61,7 @@
 
 .hero img {
     width: 100%;
-    height: 400px;
+    height: 500px;
     object-fit: cover;
     display: block;
 }
@@ -73,10 +73,19 @@
     background-color: #FFA533;
 }
 
-.section-news h2{
+.section-news h2 a{
+    text-decoration: none;
     font-family: 'Playfair Display', serif;
     color: #1a1a1a;
 }
+
+.section-news h2 a:hover {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5em;
+    transition: font-size 0.5s ease;
+}
+
 
 .article-news{
     display: flex;
@@ -185,14 +194,14 @@
     font-family: 'Playfair Display', serif;
     font-size: 32px;
     color: #1a1a1a;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-bottom: 3px solid #E77500;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .article-events {
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 
 .event {
@@ -240,7 +249,7 @@
 }
 
 .study img, .work img {
-    width: 210%;
+    width: 195%;
     height: 100%;
     object-fit: cover;
     display: block;
@@ -287,7 +296,7 @@
 
 .footer {
     grid-area: area9;
-    width: 200%;
+    width: 190%;
     background-color: #1a1a1a;
     padding: 40px;
     

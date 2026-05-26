@@ -1,0 +1,136 @@
+.news-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    "card1 card2 card3"
+    "card4 card5 card6"
+    "card7 card8 card9";
+    gap: 24px;
+}
+
+.news-card1,
+.news-card2,
+.news-card3,
+.news-card4,
+.news-card5,
+.news-card6,
+.news-card7,
+.news-card8,
+.news-card9{
+    background: #fafafa;
+    border-top: 4px solid #E77500;
+    overflow: hidden;
+    transition: background 0.2s;
+}
+
+.news-card1 {
+    grid-area: card1;
+}
+.news-card2 {
+    grid-area: card2;
+}
+.news-card3 {
+    grid-area: card3;
+}
+.news-card4 {
+    grid-area: card4;
+}
+.news-card5 {
+    grid-area: card5;
+}
+.news-card6 {
+    grid-area: card6;
+}
+.news-card7 {
+    grid-area: card7;
+}
+.news-card8 {
+    grid-area: card8;
+}
+.news-card9 {
+    grid-area: card9;
+}
+
+
+.news-card1:hover,
+.news-card2:hover,
+.news-card3:hover,
+.news-card4:hover,
+.news-card5:hover,
+.news-card6:hover,
+.news-card7:hover,
+.news-card8:hover,
+.news-card9:hover {
+    background: #fff8f0;
+}
+
+.news-img {
+    overflow: hidden;
+    height: 200px;
+}
+
+.news-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.news-card1:hover .news-img img,
+.news-card2:hover .news-img img,
+.news-card3:hover .news-img img,
+.news-card4:hover .news-img img,
+.news-card5:hover .news-img img,
+.news-card6:hover .news-img img,
+.news-card7:hover .news-img img,
+.news-card8:hover .news-img img,
+.news-card9:hover .news-img img{
+    transform: scale(1.04);
+}
+
+.news-body {
+    padding: 20px 20px 24px;
+}
+
+.news-tag {
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #E77500;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.news-body h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1a1a1a;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.news-body p {
+    font-size: 13px;
+    color: #666;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+.news-link {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #E77500;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.news-link:hover {
+    text-decoration: underline;
+}
