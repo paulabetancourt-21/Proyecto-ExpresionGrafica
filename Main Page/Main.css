@@ -34,6 +34,10 @@
     letter-spacing: 0.05em;
 }
 
+.site-nav {
+    grid-area: area2;
+}
+
 .nav{
     grid-area: area2;
     background-color: black; 
@@ -296,7 +300,7 @@
 
 .footer {
     grid-area: area9;
-    width: 190%;
+    width: 182%;
     background-color: #1a1a1a;
     padding: 40px;
     

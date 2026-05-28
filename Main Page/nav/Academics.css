@@ -28,7 +28,7 @@ body {
     letter-spacing: 0.05em;
 }
 
-.site-nav {
+/* .site-nav {
     background-color: black;
     display: flex;
     gap: 20px;
@@ -49,7 +49,7 @@ body {
 .site-nav a:hover,
 .site-nav a.active {
     color: #E77500;
-}
+} */
 
 .hero {
     position: relative;
